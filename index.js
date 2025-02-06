@@ -4,7 +4,7 @@ const { resolve } = require('path');
 require('dotenv').config();
 
 const app = express();
-const port = 3010;
+const port = 8011;
 
 app.use(express.static('static'));
 
